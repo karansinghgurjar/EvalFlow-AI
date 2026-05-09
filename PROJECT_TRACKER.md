@@ -432,19 +432,19 @@ Status options: `Not Started`, `In Progress`, `Needs Testing`, `Done`, `Blocked`
 | --- | --- |
 | Goal | Deploy the full stack and confirm the live app works end-to-end. |
 | Priority | High |
-| Overall phase status | In Progress |
+| Overall phase status | Done |
 
 | Task | Priority | Status | Notes |
 | --- | --- | --- | --- |
-| [ ] Create production database | High | Not Started | Neon or Supabase PostgreSQL. |
-| [ ] Deploy backend | High | Not Started | Render or Railway. |
-| [ ] Set backend environment variables | High | Not Started | `DATABASE_URL`, `JWT_SECRET`, `PORT`, CORS origin. |
-| [ ] Run Prisma production migration | High | Not Started | Apply schema to production DB. |
-| [ ] Run production seed | Medium | Not Started | Demo users and sample data. |
-| [ ] Deploy frontend | High | Not Started | Vercel. |
-| [ ] Set frontend environment variables | High | Not Started | Backend API base URL. |
-| [ ] Test live app | High | Not Started | Full auth and workflow smoke test. |
-| [ ] Add live link to README | High | Not Started | Include final deployed URL. |
+| [x] Create production database | High | Done | Neon PostgreSQL production database created. |
+| [x] Deploy backend | High | Done | Backend deployed successfully on Render. |
+| [x] Set backend environment variables | High | Done | `DATABASE_URL`, `JWT_SECRET`, `PORT`, and runtime settings configured on Render. |
+| [x] Run Prisma production migration | High | Done | `prisma migrate deploy` ran during Render build. |
+| [x] Run production seed | Medium | Done | Production seed executed successfully once after deploy. |
+| [x] Deploy frontend | High | Done | Frontend deployed successfully on Vercel. |
+| [x] Set frontend environment variables | High | Done | `VITE_API_BASE_URL` configured for the live backend API. |
+| [x] Test live app | High | Done | Live auth, dashboards, pages, and workflow smoke tests passed. |
+| [x] Add live link to README | High | Done | README now includes Vercel, Render, and GitHub links. |
 
 **Completion criteria**
 
@@ -728,11 +728,11 @@ Use this template every day:
 | [ ] Frontend deployed | Not Started | Vercel. |
 | [ ] Backend deployed | Not Started | Render or Railway. |
 | [ ] Database deployed | Not Started | Neon or Supabase PostgreSQL. |
-| [ ] Live link working | Not Started | Test in incognito/private window. |
-| [ ] Demo credentials working | Not Started | Admin, Annotator, Reviewer. |
-| [ ] README completed | Not Started | Include setup, screenshots, links. |
+| [x] Live link working | Done | Live frontend and backend URLs were tested successfully. |
+| [x] Demo credentials working | Done | Admin, Annotator, and Reviewer logins work in the live app. |
+| [ ] README completed | In Progress | Live links are added; screenshots and final personal details can still be polished. |
 | [ ] Screenshots added | Not Started | Add key pages and workflows. |
-| [ ] App tested end-to-end | In Progress | Core admin -> annotator -> reviewer workflow passed locally; deployment-level verification still remains. |
+| [x] App tested end-to-end | Done | Local and live admin -> annotator -> reviewer workflow checks are complete. |
 | [ ] Resume updated | Not Started | Add EvalFlow AI project summary. |
 | [ ] Microsoft form submitted | Not Started | Assessment submission form. |
 | [ ] SLCM registration completed | Not Started | Required registration step. |
@@ -749,4 +749,4 @@ Use this template every day:
 | Basic Express API | Done | Root route returns EvalFlow AI API message. |
 | Database setup | Done | Local PostgreSQL, Prisma migration, and seed data complete. |
 | Auth workflow | Done | Backend and frontend auth flows are connected with validation, persistence, logout, and role redirects. |
-| Deployment | Not Started | Final phase. |
+| Deployment | Done | Frontend, backend, and production database are deployed and live-tested. |

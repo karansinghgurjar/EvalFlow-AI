@@ -8,9 +8,9 @@ This project was built for the Ethara.AI Software Engineer Full Stack assessment
 
 ## Live Links
 
-Frontend: Add deployed frontend link here  
-Backend API: Add deployed backend link here  
-GitHub Repository: Add GitHub repo link here  
+Frontend: https://eval-flow-ai-taupe.vercel.app  
+Backend API: https://evalflow-ai-backend.onrender.com/api  
+GitHub Repository: https://github.com/karansinghgurjar/EvalFlow-AI  
 
 ---
 
