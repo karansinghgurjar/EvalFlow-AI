@@ -482,7 +482,8 @@ Example usage after adding images:
 
 ## Author
 
-Your Name  
-B.Tech / Branch / Graduation Year  
-GitHub: Add your GitHub profile  
-LinkedIn: Add your LinkedIn profile
+Karan Singh Gurjar
+B.Tech / CSE / 2024  
+M.Tech / CSE / 2026  
+GitHub:   https://github.com/karansinghgurjar
+LinkedIn: https://www.linkedin.com/in/karan-singh-gurjar-052b30197/
